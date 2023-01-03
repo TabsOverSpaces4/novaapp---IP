@@ -6,7 +6,8 @@
 A simple e-commerce application built using flutter 3.0
 
 ## Implementation
-![](https://github.com/TabsOverSpaces4/novaapp---IP/blob/main/lib/assets/SRGif.gif)
+
+![SRGif](https://user-images.githubusercontent.com/78035291/210353173-959429a2-ba57-4476-81c1-b0c623885b7c.gif)
 
 
 ## Tech Stack
