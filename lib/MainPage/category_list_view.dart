@@ -119,7 +119,7 @@ class CategoryView extends StatelessWidget {
                           Expanded(
                             child: Container(
                               decoration: BoxDecoration(
-                                color: HexColor('#F8FAFB'),
+                                color: HexColor('#ff7750'),
                                 borderRadius: const BorderRadius.all(
                                     Radius.circular(16.0)),
                               ),
@@ -161,7 +161,7 @@ class CategoryView extends StatelessWidget {
                                                   CrossAxisAlignment.center,
                                               children: <Widget>[
                                                 Text(
-                                                  '${category!.lessonCount} lesson',
+                                                  '${category!.money}',
                                                   textAlign: TextAlign.left,
                                                   style: TextStyle(
                                                     fontWeight: FontWeight.w200,
@@ -191,8 +191,7 @@ class CategoryView extends StatelessWidget {
                                                       Icon(
                                                         Icons.star,
                                                         color:
-                                                            DesignCourseAppTheme
-                                                                .nearlyBlue,
+                                                            Colors.orange.shade400,
                                                         size: 20,
                                                       ),
                                                     ],
@@ -218,14 +217,12 @@ class CategoryView extends StatelessWidget {
                                                     fontWeight: FontWeight.w600,
                                                     fontSize: 18,
                                                     letterSpacing: 0.27,
-                                                    color: DesignCourseAppTheme
-                                                        .nearlyBlue,
+                                                    color: Colors.orange.shade400,
                                                   ),
                                                 ),
                                                 Container(
                                                   decoration: BoxDecoration(
-                                                    color: DesignCourseAppTheme
-                                                        .nearlyBlue,
+                                                    color: Colors.orange.shade400,
                                                     borderRadius:
                                                         const BorderRadius.all(
                                                             Radius.circular(
@@ -265,10 +262,10 @@ class CategoryView extends StatelessWidget {
                           children: <Widget>[
                             ClipRRect(
                               borderRadius:
-                                  const BorderRadius.all(Radius.circular(16.0)),
+                                  const BorderRadius.all(Radius.circular(0)),
                               child: AspectRatio(
-                                  aspectRatio: 1.0,
-                                  child: Image.asset(category!.imagePath)),
+                                  aspectRatio: 2.0,
+                                  child: Image.network(category!.imagePath)),
                             )
                           ],
                         ),
