@@ -1,5 +1,8 @@
 # NovaApp
 
+![Novaapp banner](https://user-images.githubusercontent.com/78035291/210353017-a338f13e-2cbd-4514-ba62-a3fff527b5fd.png)
+
+
 A simple e-commerce application built using flutter 3.0
 
 ## Implementation
