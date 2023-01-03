@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:novaapp/Main%20Page/home_design_course.dart';
+import 'package:novaapp/MainPage/home_design_course.dart';
 
 void main() {
   runApp(const MyApp());

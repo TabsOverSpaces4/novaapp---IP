@@ -1,5 +1,5 @@
-import 'package:novaapp/Main Page/design_course_app_theme.dart';
-import 'package:novaapp/Main Page/models/category.dart';
+import 'package:novaapp/MainPage/design_course_app_theme.dart';
+import 'package:novaapp/MainPage/models/category.dart';
 import 'package:novaapp/main.dart';
 import 'package:flutter/material.dart';
 

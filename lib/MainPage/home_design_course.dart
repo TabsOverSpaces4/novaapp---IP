@@ -1,6 +1,6 @@
-import 'package:novaapp/Main Page/category_list_view.dart';
-import 'package:novaapp/Main Page/course_info_screen.dart';
-import 'package:novaapp/Main Page/popular_course_list_view.dart';
+import 'package:novaapp/MainPage/category_list_view.dart';
+import 'package:novaapp/MainPage/course_info_screen.dart';
+import 'package:novaapp/MainPage/popular_course_list_view.dart';
 import 'package:novaapp/main.dart';
 import 'package:flutter/material.dart';
 import 'design_course_app_theme.dart';
@@ -139,11 +139,11 @@ class _DesignCourseHomeScreenState extends State<DesignCourseHomeScreen> {
   Widget getButtonUI(CategoryType categoryTypeData, bool isSelected) {
     String txt = '';
     if (CategoryType.ui == categoryTypeData) {
-      txt = 'Ui/Ux';
+      txt = 'Furniture';
     } else if (CategoryType.coding == categoryTypeData) {
-      txt = 'Coding';
+      txt = 'Fashion';
     } else if (CategoryType.basic == categoryTypeData) {
-      txt = 'Basic UI';
+      txt = 'Technology';
     }
     return Expanded(
       child: Container(
@@ -223,7 +223,7 @@ class _DesignCourseHomeScreenState extends State<DesignCourseHomeScreen> {
                           ),
                           keyboardType: TextInputType.text,
                           decoration: InputDecoration(
-                            labelText: 'Search for course',
+                            labelText: 'Search product',
                             border: InputBorder.none,
                             helperStyle: TextStyle(
                               fontWeight: FontWeight.bold,
@@ -270,17 +270,17 @@ class _DesignCourseHomeScreenState extends State<DesignCourseHomeScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Text(
-                  'Choose your',
+                  '👋 Hello,',
                   textAlign: TextAlign.left,
                   style: TextStyle(
                     fontWeight: FontWeight.w400,
-                    fontSize: 14,
+                    fontSize: 20,
                     letterSpacing: 0.2,
                     color: DesignCourseAppTheme.grey,
                   ),
                 ),
                 Text(
-                  'Design Course',
+                  '    Rizale',
                   textAlign: TextAlign.left,
                   style: TextStyle(
                     fontWeight: FontWeight.bold,

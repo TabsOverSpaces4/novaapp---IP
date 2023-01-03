@@ -7,7 +7,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:novaapp/Main%20Page/home_design_course.dart';
+import 'package:novaapp/MainPage/home_design_course.dart';
 
 import 'package:novaapp/main.dart';
 
